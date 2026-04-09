@@ -4,7 +4,7 @@
   "id": "https://baradhili.github.io/Solution-architecture-skill-repository/skills.json",
   "identifier": "ITSA-SKILLS-INDEX",
   "abbreviatedStatement": "IT Solution Architect Skills Index",
-  "fullStatement": "Machine-readable index of 3 Rich Skill Descriptors in CASE-LD v1.1 format for API consumption and programmatic access.",
+  "fullStatement": "Machine-readable index of 45 Rich Skill Descriptors in CASE-LD v1.1 format for API consumption and programmatic access.",
   "conceptKeywords": [
     "index",
     "catalogue",
@@ -31,6 +31,79 @@
   },
   "skills": [
     {
+      "identifier": "ITSA-AAD-015",
+      "abbreviatedStatement": "Analytics Architecture Design",
+      "fullStatement": "The solution architect designs scalable analytics architectures that enable data ingestion, storage, processing, and visualization to support business intelligence, machine learning, and real-time decisioning.",
+      "conceptKeywords": [
+        "data warehouse",
+        "data lake",
+        "BI architecture",
+        "ML ops",
+        "real-time analytics"
+      ],
+      "subject": "Data Analytics",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/analytics-architecture-design.jsonld",
+      "file": "analytics-architecture-design.jsonld"
+    },
+    {
+      "identifier": "ITSA-ACD-021",
+      "abbreviatedStatement": "API Contract Design",
+      "fullStatement": "The solution architect defines versioned, documented, and testable API contracts using industry standards that enable interoperable service integration across distributed systems.",
+      "conceptKeywords": [
+        "API design",
+        "OpenAPI",
+        "REST",
+        "GraphQL",
+        "contract-first",
+        "API governance"
+      ],
+      "subject": "Software Engineering",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/api-contract-design.jsonld",
+      "file": "api-contract-design.jsonld"
+    },
+    {
+      "identifier": "ITSA-AC-036",
+      "abbreviatedStatement": "Architecture Communication",
+      "fullStatement": "The solution architect creates and delivers architecture documentation, diagrams, and presentations tailored to diverse audiences to ensure shared understanding and alignment on technical direction.",
+      "conceptKeywords": [
+        "architecture diagrams",
+        "C4 model",
+        "decision records",
+        "technical storytelling",
+        "visual communication"
+      ],
+      "subject": "Technical Communication",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/architecture-communication.jsonld",
+      "file": "architecture-communication.jsonld"
+    },
+    {
+      "identifier": "ITSA-ARP-019",
+      "abbreviatedStatement": "Architecture Review Processes",
+      "fullStatement": "The solution architect establishes and facilitates architecture review processes that evaluate design quality, risk, and alignment with standards before implementation approval.",
+      "conceptKeywords": [
+        "architecture review board",
+        "design governance",
+        "quality gates",
+        "peer review",
+        "architecture compliance"
+      ],
+      "subject": "Architecture Governance",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/architecture-review-processes.jsonld",
+      "file": "architecture-review-processes.jsonld"
+    },
+    {
       "identifier": "ITSA-BCM-026",
       "abbreviatedStatement": "Business Capability Mapping",
       "fullStatement": "The solution architect maps business capabilities to technology components and services to ensure architecture investments directly support strategic business outcomes and value streams.",
@@ -47,6 +120,192 @@
       ],
       "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/business-capability-mapping.jsonld",
       "file": "business-capability-mapping.jsonld"
+    },
+    {
+      "identifier": "ITSA-BCD-043",
+      "abbreviatedStatement": "Business Case Development",
+      "fullStatement": "The solution architect constructs compelling business cases that quantify expected benefits, costs, risks, and strategic alignment to secure executive approval for architecture investments.",
+      "conceptKeywords": [
+        "business case",
+        "benefit realization",
+        "cost-benefit analysis",
+        "strategic alignment",
+        "investment justification",
+        "value proposition"
+      ],
+      "subject": "Business Strategy",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/business-case-development.jsonld",
+      "file": "business-case-development.jsonld"
+    },
+    {
+      "identifier": "ITSA-CPM-034",
+      "abbreviatedStatement": "Capacity Planning Methodology",
+      "fullStatement": "The solution architect applies capacity planning methodologies that forecast resource needs, model growth scenarios, and optimize infrastructure utilization to balance performance and cost.",
+      "conceptKeywords": [
+        "load modeling",
+        "scaling strategies",
+        "performance baselines",
+        "cost optimization",
+        "elasticity design"
+      ],
+      "subject": "Performance Engineering",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/capacity-planning-methodology.jsonld",
+      "file": "capacity-planning-methodology.jsonld"
+    },
+    {
+      "identifier": "ITSA-CIA-002",
+      "abbreviatedStatement": "Cloud Infrastructure Architecture",
+      "fullStatement": "The solution architect designs scalable, secure, and cost-optimized cloud infrastructure architectures that support enterprise workload requirements across hybrid and multi-cloud environments.",
+      "conceptKeywords": [
+        "cloud architecture",
+        "AWS",
+        "Azure",
+        "GCP",
+        "infrastructure as code",
+        "cloud migration",
+        "well-architected framework"
+      ],
+      "subject": "Cloud Computing",
+      "educationLevel": [
+        "postgraduate",
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/cloud-infrastructure-architecture.jsonld",
+      "file": "cloud-infrastructure-architecture.jsonld"
+    },
+    {
+      "identifier": "ITSA-CFM-018",
+      "abbreviatedStatement": "Compliance Framework Mapping",
+      "fullStatement": "The solution architect maps technical controls and architecture patterns to regulatory and industry compliance frameworks to ensure solutions meet legal, security, and audit requirements.",
+      "conceptKeywords": [
+        "GDPR",
+        "HIPAA",
+        "SOC 2",
+        "ISO 27001",
+        "compliance controls",
+        "audit readiness"
+      ],
+      "subject": "Regulatory Compliance",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/compliance-framework-mapping.jsonld",
+      "file": "compliance-framework-mapping.jsonld"
+    },
+    {
+      "identifier": "ITSA-CDM-011",
+      "abbreviatedStatement": "Conceptual Data Modeling",
+      "fullStatement": "The solution architect creates high-level conceptual data models that capture business entities, relationships, and rules to guide logical and physical data architecture design.",
+      "conceptKeywords": [
+        "entity-relationship modeling",
+        "business entities",
+        "data semantics",
+        "conceptual schema",
+        "domain modeling"
+      ],
+      "subject": "Data Architecture",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/conceptual-data-modeling.jsonld",
+      "file": "conceptual-data-modeling.jsonld"
+    },
+    {
+      "identifier": "ITSA-CM-039",
+      "abbreviatedStatement": "Conflict Mediation",
+      "fullStatement": "The solution architect mediates technical and strategic conflicts between stakeholders by facilitating evidence-based discussions that balance competing priorities and reach consensus on architecture direction.",
+      "conceptKeywords": [
+        "conflict resolution",
+        "consensus building",
+        "negotiation",
+        "stakeholder alignment",
+        "decision facilitation"
+      ],
+      "subject": "Leadership & Facilitation",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/conflict-mediation.jsonld",
+      "file": "conflict-mediation.jsonld"
+    },
+    {
+      "identifier": "ITSA-CPD-012",
+      "abbreviatedStatement": "Container Platform Design",
+      "fullStatement": "The solution architect designs container orchestration platforms and runtime environments that enable portable, scalable, and resilient microservices deployment across cloud and on-premises infrastructure.",
+      "conceptKeywords": [
+        "Kubernetes",
+        "container orchestration",
+        "service mesh",
+        "container security",
+        "platform engineering"
+      ],
+      "subject": "Cloud Native Computing",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/container-platform-design.jsonld",
+      "file": "container-platform-design.jsonld"
+    },
+    {
+      "identifier": "ITSA-CTC-037",
+      "abbreviatedStatement": "Cross-team Coordination",
+      "fullStatement": "The solution architect facilitates coordination across development, operations, security, and business teams to ensure architecture decisions are implemented consistently and dependencies are managed effectively.",
+      "conceptKeywords": [
+        "cross-functional collaboration",
+        "dependency management",
+        "architecture guilds",
+        "communities of practice",
+        "alignment workshops"
+      ],
+      "subject": "Team Collaboration",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/cross-team-coordination.jsonld",
+      "file": "cross-team-coordination.jsonld"
+    },
+    {
+      "identifier": "ITSA-DFD-013",
+      "abbreviatedStatement": "Data Flow Design",
+      "fullStatement": "The solution architect designs end-to-end data flows that specify how data moves, transforms, and is consumed across systems to support business processes and analytics requirements.",
+      "conceptKeywords": [
+        "data pipeline",
+        "ETL/ELT",
+        "stream processing",
+        "data lineage",
+        "flow orchestration"
+      ],
+      "subject": "Data Engineering",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/data-flow-design.jsonld",
+      "file": "data-flow-design.jsonld"
+    },
+    {
+      "identifier": "ITSA-DPA-030",
+      "abbreviatedStatement": "DevOps Pipeline Architecture",
+      "fullStatement": "The solution architect designs automated CI/CD pipelines with integrated testing, security scanning, and deployment orchestration that enable rapid, reliable, and auditable software delivery.",
+      "conceptKeywords": [
+        "DevOps",
+        "CI/CD",
+        "pipeline automation",
+        "infrastructure as code",
+        "GitOps",
+        "deployment strategies"
+      ],
+      "subject": "Software Engineering",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/devops-pipeline-architecture.jsonld",
+      "file": "devops-pipeline-architecture.jsonld"
     },
     {
       "identifier": "ITSA-DDD-010",
@@ -67,6 +326,244 @@
       "file": "domain-driven-design.jsonld"
     },
     {
+      "identifier": "ITSA-ECA-015",
+      "abbreviatedStatement": "Edge Computing Architecture",
+      "fullStatement": "The solution architect designs distributed edge computing architectures that process data closer to sources to reduce latency, bandwidth usage, and improve real-time decision capabilities.",
+      "conceptKeywords": [
+        "edge computing",
+        "IoT architecture",
+        "fog computing",
+        "distributed processing",
+        "low-latency design"
+      ],
+      "subject": "Distributed Systems",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/edge-computing-architecture.jsonld",
+      "file": "edge-computing-architecture.jsonld"
+    },
+    {
+      "identifier": "ITSA-EAM-001",
+      "abbreviatedStatement": "Enterprise Architecture Modeling",
+      "fullStatement": "The solution architect creates and maintains enterprise architecture models using standardized notations that enable strategic technology alignment across business domains.",
+      "conceptKeywords": [
+        "enterprise architecture",
+        "TOGAF",
+        "ArchiMate",
+        "business capability mapping",
+        "architecture visualization"
+      ],
+      "subject": "Information Technology",
+      "educationLevel": [
+        "postgraduate",
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/enterprise-architecture-modeling.jsonld",
+      "file": "enterprise-architecture-modeling.jsonld"
+    },
+    {
+      "identifier": "ITSA-ESB-023",
+      "abbreviatedStatement": "Enterprise Service Bus Design",
+      "fullStatement": "The solution architect designs enterprise service bus architectures that provide centralized mediation, transformation, and routing capabilities for complex system integration scenarios.",
+      "conceptKeywords": [
+        "ESB",
+        "service mediation",
+        "message transformation",
+        "protocol bridging",
+        "integration patterns"
+      ],
+      "subject": "Enterprise Integration",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/enterprise-service-bus-design.jsonld",
+      "file": "enterprise-service-bus-design.jsonld"
+    },
+    {
+      "identifier": "ITSA-EST-011",
+      "abbreviatedStatement": "Event-Storming Techniques",
+      "fullStatement": "The solution architect facilitates collaborative event-storming workshops to rapidly discover business processes, domain events, and system boundaries for complex solution design.",
+      "conceptKeywords": [
+        "event storming",
+        "workshop facilitation",
+        "domain discovery",
+        "business process modeling",
+        "collaborative design"
+      ],
+      "subject": "Business Analysis",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/event-storming-techniques.jsonld",
+      "file": "event-storming-techniques.jsonld"
+    },
+    {
+      "identifier": "ITSA-HCI-014",
+      "abbreviatedStatement": "Hybrid Cloud Integration",
+      "fullStatement": "The solution architect designs integration architectures that seamlessly connect on-premises systems with public and private cloud services while maintaining data consistency, security, and governance.",
+      "conceptKeywords": [
+        "hybrid cloud",
+        "cloud connectivity",
+        "data synchronization",
+        "identity federation",
+        "network architecture"
+      ],
+      "subject": "Cloud Integration",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/hybrid-cloud-integration.jsonld",
+      "file": "hybrid-cloud-integration.jsonld"
+    },
+    {
+      "identifier": "ITSA-IFD-017",
+      "abbreviatedStatement": "Identity Federation Design",
+      "fullStatement": "The solution architect designs identity federation architectures that enable secure, seamless authentication and authorization across organizational boundaries using industry standards.",
+      "conceptKeywords": [
+        "SSO",
+        "SAML",
+        "OIDC",
+        "OAuth 2.0",
+        "identity provider",
+        "trust federation"
+      ],
+      "subject": "Identity Management",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/identity-federation-design.jsonld",
+      "file": "identity-federation-design.jsonld"
+    },
+    {
+      "identifier": "ITSA-IAD-031",
+      "abbreviatedStatement": "Infrastructure Automation Design",
+      "fullStatement": "The solution architect designs infrastructure-as-code frameworks and automation pipelines that enable consistent, repeatable, and auditable provisioning of cloud and on-premises resources.",
+      "conceptKeywords": [
+        "IaC",
+        "Terraform",
+        "Ansible",
+        "configuration management",
+        "immutable infrastructure",
+        "GitOps"
+      ],
+      "subject": "Infrastructure Engineering",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/infrastructure-automation-design.jsonld",
+      "file": "infrastructure-automation-design.jsonld"
+    },
+    {
+      "identifier": "ITSA-KTP-038",
+      "abbreviatedStatement": "Knowledge Transfer Planning",
+      "fullStatement": "The solution architect designs and executes knowledge transfer plans that capture architecture decisions, patterns, and rationale to enable team autonomy and reduce single-point-of-failure risks.",
+      "conceptKeywords": [
+        "architecture decision records",
+        "runbooks",
+        "mentoring",
+        "documentation strategy",
+        "onboarding enablement"
+      ],
+      "subject": "Knowledge Management",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/knowledge-transfer-planning.jsonld",
+      "file": "knowledge-transfer-planning.jsonld"
+    },
+    {
+      "identifier": "ITSA-LSI-025",
+      "abbreviatedStatement": "Legacy System Integration",
+      "fullStatement": "The solution architect designs integration strategies that modernize, wrap, or replace legacy systems while preserving business continuity and minimizing technical debt accumulation.",
+      "conceptKeywords": [
+        "strangler pattern",
+        "legacy modernization",
+        "system wrapping",
+        "data migration",
+        "technical debt"
+      ],
+      "subject": "System Modernization",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/legacy-system-integration.jsonld",
+      "file": "legacy-system-integration.jsonld"
+    },
+    {
+      "identifier": "ITSA-LDA-012",
+      "abbreviatedStatement": "Logical Data Architecture",
+      "fullStatement": "The solution architect designs logical data architectures that define data structures, relationships, and access patterns independent of physical implementation technologies.",
+      "conceptKeywords": [
+        "logical data model",
+        "normalization",
+        "schema design",
+        "data abstraction",
+        "conceptual to logical mapping"
+      ],
+      "subject": "Data Architecture",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/logical-data-architecture.jsonld",
+      "file": "logical-data-architecture.jsonld"
+    },
+    {
+      "identifier": "ITSA-MDM-014",
+      "abbreviatedStatement": "Master Data Management",
+      "fullStatement": "The solution architect designs master data management architectures that ensure consistent, authoritative, and governed reference data across enterprise systems and business domains.",
+      "conceptKeywords": [
+        "MDM",
+        "golden record",
+        "data governance",
+        "data stewardship",
+        "reference data"
+      ],
+      "subject": "Data Governance",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/master-data-management.jsonld",
+      "file": "master-data-management.jsonld"
+    },
+    {
+      "identifier": "ITSA-MQA-022",
+      "abbreviatedStatement": "Message Queue Architecture",
+      "fullStatement": "The solution architect designs asynchronous messaging architectures using queues, topics, and event streams to enable decoupled, scalable, and resilient system communication.",
+      "conceptKeywords": [
+        "message queuing",
+        "pub/sub",
+        "Kafka",
+        "RabbitMQ",
+        "event streaming",
+        "dead letter queues"
+      ],
+      "subject": "Distributed Messaging",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/message-queue-architecture.jsonld",
+      "file": "message-queue-architecture.jsonld"
+    },
+    {
+      "identifier": "ITSA-OA-032",
+      "abbreviatedStatement": "Observability Architecture",
+      "fullStatement": "The solution architect designs observability architectures that integrate logging, metrics, tracing, and alerting to enable proactive detection, diagnosis, and resolution of system issues.",
+      "conceptKeywords": [
+        "OpenTelemetry",
+        "distributed tracing",
+        "log aggregation",
+        "SLO/SLI",
+        "monitoring strategy"
+      ],
+      "subject": "System Observability",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/observability-architecture.jsonld",
+      "file": "observability-architecture.jsonld"
+    },
+    {
       "identifier": "ITSA-PTD-024",
       "abbreviatedStatement": "Protocol Translation Design",
       "fullStatement": "The solution architect designs protocol translation layers that enable interoperability between systems using different communication protocols, data formats, and encoding schemes.",
@@ -83,8 +580,283 @@
       ],
       "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/protocol-translation-design.jsonld",
       "file": "protocol-translation-design.jsonld"
+    },
+    {
+      "identifier": "ITSA-RP-029",
+      "abbreviatedStatement": "Requirements Prioritization",
+      "fullStatement": "The solution architect facilitates requirements prioritization using value, risk, and dependency analysis to sequence architecture work that delivers maximum business impact within constraints.",
+      "conceptKeywords": [
+        "MoSCoW prioritization",
+        "value vs effort",
+        "dependency mapping",
+        "risk-based sequencing",
+        "MVP definition"
+      ],
+      "subject": "Requirements Engineering",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/requirements-prioritization.jsonld",
+      "file": "requirements-prioritization.jsonld"
+    },
+    {
+      "identifier": "ITSA-RPI-033",
+      "abbreviatedStatement": "Resilience Pattern Implementation",
+      "fullStatement": "The solution architect implements resilience patterns such as circuit breakers, retries, bulkheads, and fallbacks to ensure system availability and graceful degradation under failure conditions.",
+      "conceptKeywords": [
+        "circuit breaker",
+        "retry policies",
+        "bulkhead isolation",
+        "chaos engineering",
+        "fault tolerance"
+      ],
+      "subject": "System Reliability",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/resilience-pattern-implementation.jsonld",
+      "file": "resilience-pattern-implementation.jsonld"
+    },
+    {
+      "identifier": "ITSA-RMA-044",
+      "abbreviatedStatement": "ROI Modeling & Analysis",
+      "fullStatement": "The solution architect builds financial models to calculate return on investment, payback periods, and net present value for architecture initiatives to support data-driven investment decisions.",
+      "conceptKeywords": [
+        "ROI analysis",
+        "NPV calculation",
+        "payback period",
+        "financial modeling",
+        "value metrics",
+        "investment appraisal"
+      ],
+      "subject": "Financial Analysis",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/roi-modeling-analysis.jsonld",
+      "file": "roi-modeling-analysis.jsonld"
+    },
+    {
+      "identifier": "ITSA-SCD-016",
+      "abbreviatedStatement": "Security Control Design",
+      "fullStatement": "The solution architect integrates security controls, threat modeling, and compliance requirements into solution architectures that protect data, systems, and user privacy throughout the application lifecycle.",
+      "conceptKeywords": [
+        "security architecture",
+        "zero trust",
+        "threat modeling",
+        "NIST CSF",
+        "encryption",
+        "identity management"
+      ],
+      "subject": "Cybersecurity",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/security-control-design.jsonld",
+      "file": "security-control-design.jsonld"
+    },
+    {
+      "identifier": "ITSA-SCD-013",
+      "abbreviatedStatement": "Serverless Computing Design",
+      "fullStatement": "The solution architect designs event-driven, serverless architectures that leverage managed services to optimize cost, scalability, and operational overhead for variable workload patterns.",
+      "conceptKeywords": [
+        "serverless",
+        "FaaS",
+        "event-driven architecture",
+        "managed services",
+        "cold start optimization"
+      ],
+      "subject": "Cloud Computing",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/serverless-computing-design.jsonld",
+      "file": "serverless-computing-design.jsonld"
+    },
+    {
+      "identifier": "ITSA-SCE-041",
+      "abbreviatedStatement": "Solution Cost Estimation",
+      "fullStatement": "The solution architect develops accurate cost estimates for solution delivery using parametric modeling, analogous estimation, and vendor pricing data to support budgeting and procurement decisions.",
+      "conceptKeywords": [
+        "cost estimation",
+        "parametric modeling",
+        "analogous estimation",
+        "vendor pricing",
+        "budget forecasting",
+        "TCO modeling"
+      ],
+      "subject": "Project Cost Management",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/solution-cost-estimation.jsonld",
+      "file": "solution-cost-estimation.jsonld"
+    },
+    {
+      "identifier": "ITSA-SPA-008",
+      "abbreviatedStatement": "Solution Pattern Application",
+      "fullStatement": "The solution architect selects and adapts proven architectural patterns and design templates to solve recurring business problems while ensuring contextual fit and maintainability.",
+      "conceptKeywords": [
+        "architectural patterns",
+        "design patterns",
+        "pattern catalogs",
+        "solution blueprints",
+        "reference architectures"
+      ],
+      "subject": "Software Architecture",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/solution-pattern-application.jsonld",
+      "file": "solution-pattern-application.jsonld"
+    },
+    {
+      "identifier": "ITSA-SIS-040",
+      "abbreviatedStatement": "Stakeholder Influence Strategy",
+      "fullStatement": "The solution architect develops and executes communication strategies that align technical recommendations with business objectives to gain stakeholder buy-in for architecture decisions across diverse audiences.",
+      "conceptKeywords": [
+        "stakeholder management",
+        "executive communication",
+        "business case development",
+        "change management",
+        "influence without authority"
+      ],
+      "subject": "Business Communication",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/stakeholder-influence-strategy.jsonld",
+      "file": "stakeholder-influence-strategy.jsonld"
+    },
+    {
+      "identifier": "ITSA-SID-009",
+      "abbreviatedStatement": "System Interface Design",
+      "fullStatement": "The solution architect defines clear, versioned, and testable system interfaces that enable reliable data exchange and service orchestration across heterogeneous technology stacks.",
+      "conceptKeywords": [
+        "interface specification",
+        "contract design",
+        "service boundaries",
+        "data contracts",
+        "integration protocols"
+      ],
+      "subject": "Systems Integration",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/system-interface-design.jsonld",
+      "file": "system-interface-design.jsonld"
+    },
+    {
+      "identifier": "ITSA-TDF-035",
+      "abbreviatedStatement": "Technical Decision Facilitation",
+      "fullStatement": "The solution architect facilitates structured technical decision-making processes using evidence-based evaluation frameworks that balance trade-offs across cost, risk, scalability, and time-to-value.",
+      "conceptKeywords": [
+        "decision frameworks",
+        "architecture trade-off analysis",
+        "proof of concept",
+        "technical debt",
+        "risk assessment"
+      ],
+      "subject": "Systems Engineering",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/technical-decision-facilitation.jsonld",
+      "file": "technical-decision-facilitation.jsonld"
+    },
+    {
+      "identifier": "ITSA-TFA-042",
+      "abbreviatedStatement": "Technical Feasibility Analysis",
+      "fullStatement": "The solution architect evaluates technical feasibility of proposed solutions by assessing technology maturity, integration complexity, resource availability, and risk factors before commitment.",
+      "conceptKeywords": [
+        "feasibility study",
+        "technology assessment",
+        "risk analysis",
+        "proof of concept",
+        "spike solutions",
+        "technical viability"
+      ],
+      "subject": "Systems Engineering",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/technical-feasibility-analysis.jsonld",
+      "file": "technical-feasibility-analysis.jsonld"
+    },
+    {
+      "identifier": "ITSA-TIA-028",
+      "abbreviatedStatement": "Technology Investment Analysis",
+      "fullStatement": "The solution architect evaluates technology investments using total cost of ownership, risk, and value metrics to recommend optimal architecture choices aligned with business strategy.",
+      "conceptKeywords": [
+        "TCO analysis",
+        "ROI modeling",
+        "build vs buy",
+        "technology radar",
+        "investment prioritization"
+      ],
+      "subject": "Technology Strategy",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/technology-investment-analysis.jsonld",
+      "file": "technology-investment-analysis.jsonld"
+    },
+    {
+      "identifier": "ITSA-TSD-020",
+      "abbreviatedStatement": "Technology Standards Definition",
+      "fullStatement": "The solution architect defines and maintains technology standards, reference architectures, and approved patterns that guide consistent, interoperable, and maintainable solution development.",
+      "conceptKeywords": [
+        "technology radar",
+        "reference architecture",
+        "standards catalog",
+        "pattern library",
+        "technology governance"
+      ],
+      "subject": "Technology Governance",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/technology-standards-definition.jsonld",
+      "file": "technology-standards-definition.jsonld"
+    },
+    {
+      "identifier": "ITSA-TCO-045",
+      "abbreviatedStatement": "Total Cost of Ownership Analysis",
+      "fullStatement": "The solution architect conducts comprehensive TCO analyses that account for acquisition, implementation, operation, maintenance, and decommissioning costs across the full solution lifecycle.",
+      "conceptKeywords": [
+        "TCO analysis",
+        "lifecycle costing",
+        "operational expenditure",
+        "capital expenditure",
+        "cost drivers",
+        "financial modeling"
+      ],
+      "subject": "Technology Economics",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/total-cost-of-ownership-analysis.jsonld",
+      "file": "total-cost-of-ownership-analysis.jsonld"
+    },
+    {
+      "identifier": "ITSA-VSA-027",
+      "abbreviatedStatement": "Value Stream Analysis",
+      "fullStatement": "The solution architect analyzes end-to-end value streams to identify bottlenecks, automation opportunities, and architectural improvements that accelerate time-to-value and reduce waste.",
+      "conceptKeywords": [
+        "value stream mapping",
+        "lean architecture",
+        "flow efficiency",
+        "bottleneck analysis",
+        "continuous improvement"
+      ],
+      "subject": "Lean Architecture",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/value-stream-analysis.jsonld",
+      "file": "value-stream-analysis.jsonld"
     }
   ],
-  "lastChangeDateTime": "2026-04-09T03:07:25.954Z",
+  "lastChangeDateTime": "2026-04-09T03:08:49.825Z",
   "version": "1.0.0"
 }
