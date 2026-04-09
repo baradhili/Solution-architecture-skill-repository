@@ -319,7 +319,7 @@ function generateSkillsJson(skills) {
     },
     isChildOf: {
       type: "LinkURI",
-      targetId: `${BASE_URL}/framework/it-solution-architect-framework.jsonld"
+      targetId: '${BASE_URL}/framework/it-solution-architect-framework.jsonld'
     },
     skills: skills.map(skill => ({
       identifier: skill.id,
@@ -341,7 +341,7 @@ function main() {
   console.log('🚀 Generating CASE-LD catalogue assets...');
   
   const skills = loadSkills();
-  console.log(`✅ Loaded ${skills.length} skills from skills/*.jsonld`);
+  console.log('✅ Loaded ${skills.length} skills from skills/*.jsonld');
   
   // Generate root index.html with Open Graph metadata
   const rootIndex = generateCatalogueHTML(skills, false);
@@ -361,7 +361,7 @@ function main() {
   console.log('✅ Generated skills.json');
   
   console.log('✨ Catalogue assets generated successfully!');
-  console.log(`🌐 Preview at: ${BASE_URL}`);
+  console.log('🌐 Preview at: ${BASE_URL}');
 }
 
 main();
