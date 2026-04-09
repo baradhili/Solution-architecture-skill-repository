@@ -1,0 +1,19 @@
+name: Validate CASE-LD
+on: [push, pull_request]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm i -g jsonld-cli case-validator
+      - run: |
+          for f in skills/*.jsonld framework/*.jsonld; do
+            echo "Validating $f..."
+            jsonld compact "$f" https://purl.imsglobal.org/spec/case/v1p1/context/imscasev1p1_context_v1p1.jsonld > /dev/null
+          done
+      - name: Validate CASE Structure
+        run: case-validator framework/it-solution-architect-framework.jsonld

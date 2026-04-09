@@ -1,0 +1,21 @@
+{
+  "@context": "https://purl.imsglobal.org/spec/case/v1p1/context/imscasev1p1_context_v1p1.jsonld",
+  "type": "CFDocument",
+  "id": "https://baradhili.github.io/Solution-architecture-skill-repository/framework/it-solution-architect-framework.jsonld",
+  "identifier": "ITSA-FW-2026",
+  "title": "IT Solution Architect Competency Framework",
+  "shortDescription": "A MECE skill catalogue for IT Solution Architects using Rich Skill Descriptors (RSD) and CASE-LD v1.1",
+  "creator": "Bret Watson",
+  "publisher": "IT Interim Management",
+  "subject": "Information Technology Solution Architecture",
+  "subjectURI": "https://www.wikidata.org/wiki/Q220604",
+  "version": "1.0.0",
+  "adoptionStatus": "Draft",
+  "lastChangeDateTime": "2026-04-09T00:00:00+00:00",
+  "officialSourceURL": "https://github.com/baradhili/Solution-architecture-skill-repository",
+  "licenseURI": {
+    "title": "Creative Commons Attribution 4.0",
+    "identifier": "CC-BY-4.0",
+    "uri": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}
