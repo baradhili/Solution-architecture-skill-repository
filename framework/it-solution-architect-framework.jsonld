@@ -1,5 +1,5 @@
 {
-  "@context": "https://purl.imsglobal.org/spec/case/v1p1/context/imscasev1p1_context_v1p1.jsonld",
+  "@context": "https://purl.imsglobal.org/spec/case/v1p0/context/imscasev1p0_context_v1p0.jsonld",
   "type": "CFDocument",
   "id": "https://baradhili.github.io/Solution-architecture-skill-repository/framework/it-solution-architect-framework.jsonld",
   "identifier": "ITSA-FW-2026",
@@ -13,6 +13,7 @@
   "adoptionStatus": "Draft",
   "lastChangeDateTime": "2026-04-09T00:00:00+00:00",
   "officialSourceURL": "https://github.com/baradhili/Solution-architecture-skill-repository",
+  "caseVersion": "1.1",
   "licenseURI": {
     "title": "Creative Commons Attribution 4.0",
     "identifier": "CC-BY-4.0",

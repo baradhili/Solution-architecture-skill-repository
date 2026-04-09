@@ -1,5 +1,5 @@
 {
-  "@context": "https://purl.imsglobal.org/spec/case/v1p1/context/imscasev1p1_context_v1p1.jsonld",
+  "@context": "https://purl.imsglobal.org/spec/case/v1p0/context/imscasev1p0_context_v1p0.jsonld",
   "type": "CFItem",
   "id": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/protocol-translation-design.jsonld",
   "identifier": "ITSA-PTD-024",
