@@ -1,4 +1,13 @@
+# _config.yml
+# Disable Jekyll processing for pure static JSON-LD site
 include:
   - "*.jsonld"
   - "framework"
   - "skills"
+
+# Disable all Jekyll plugins
+plugins: []
+
+# Disable Sass/SCSS processing (prevents the error you saw)
+sass:
+  style: compressed
