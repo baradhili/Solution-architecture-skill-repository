@@ -1,0 +1,90 @@
+{
+  "@context": "https://purl.imsglobal.org/spec/case/v1p1/context/imscasev1p1_context_v1p1.jsonld",
+  "type": "CFItem",
+  "id": "https://baradhili.github.io/Solution-architecture-skill-repository/skills.json",
+  "identifier": "ITSA-SKILLS-INDEX",
+  "abbreviatedStatement": "IT Solution Architect Skills Index",
+  "fullStatement": "Machine-readable index of 3 Rich Skill Descriptors in CASE-LD v1.1 format for API consumption and programmatic access.",
+  "conceptKeywords": [
+    "index",
+    "catalogue",
+    "CASE-LD",
+    "RSD",
+    "API",
+    "IT Solution Architecture"
+  ],
+  "language": "en",
+  "licenseURI": {
+    "title": "Creative Commons Attribution 4.0",
+    "identifier": "CC-BY-4.0",
+    "uri": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "CFDocumentURI": {
+    "type": "LinkURI",
+    "title": "IT Solution Architect Competency Framework",
+    "identifier": "ITSA-FW-2026",
+    "targetId": "https://baradhili.github.io/Solution-architecture-skill-repository/framework/it-solution-architect-framework.jsonld"
+  },
+  "isChildOf": {
+    "type": "LinkURI",
+    "targetId": "${BASE_URL}/framework/it-solution-architect-framework.jsonld"
+  },
+  "skills": [
+    {
+      "identifier": "ITSA-BCM-026",
+      "abbreviatedStatement": "Business Capability Mapping",
+      "fullStatement": "The solution architect maps business capabilities to technology components and services to ensure architecture investments directly support strategic business outcomes and value streams.",
+      "conceptKeywords": [
+        "capability modeling",
+        "value stream mapping",
+        "business-IT alignment",
+        "investment prioritization",
+        "capability heatmaps"
+      ],
+      "subject": "Enterprise Architecture",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/business-capability-mapping.jsonld",
+      "file": "business-capability-mapping.jsonld"
+    },
+    {
+      "identifier": "ITSA-DDD-010",
+      "abbreviatedStatement": "Domain-Driven Design",
+      "fullStatement": "The solution architect applies domain-driven design principles to align software models with business domains, enabling scalable, maintainable, and business-aligned solution architectures.",
+      "conceptKeywords": [
+        "bounded contexts",
+        "ubiquitous language",
+        "aggregate design",
+        "domain events",
+        "context mapping"
+      ],
+      "subject": "Software Engineering",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/domain-driven-design.jsonld",
+      "file": "domain-driven-design.jsonld"
+    },
+    {
+      "identifier": "ITSA-PTD-024",
+      "abbreviatedStatement": "Protocol Translation Design",
+      "fullStatement": "The solution architect designs protocol translation layers that enable interoperability between systems using different communication protocols, data formats, and encoding schemes.",
+      "conceptKeywords": [
+        "protocol adapters",
+        "format conversion",
+        "API gateway",
+        "middleware",
+        "interoperability"
+      ],
+      "subject": "Network Protocols",
+      "educationLevel": [
+        "professional"
+      ],
+      "url": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/protocol-translation-design.jsonld",
+      "file": "protocol-translation-design.jsonld"
+    }
+  ],
+  "lastChangeDateTime": "2026-04-09T02:53:14.772Z",
+  "version": "1.0.0"
+}
