@@ -1,0 +1,33 @@
+{
+  "@context": "https://purl.imsglobal.org/spec/case/v1p1/context/imscasev1p1_context_v1p1.jsonld",
+  "type": "CFItem",
+  "id": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/domain-driven-design.jsonld",
+  "identifier": "ITSA-DDD-010",
+  "lastChangeDateTime": "2026-04-09T00:00:00+00:00",
+  "CFDocumentURI": {
+    "type": "LinkURI",
+    "title": "IT Solution Architect Competency Framework",
+    "identifier": "ITSA-FW-2026",
+    "targetId": "https://baradhili.github.io/Solution-architecture-skill-repository/framework/it-solution-architect-framework.jsonld"
+  },
+  "abbreviatedStatement": "Domain-Driven Design",
+  "fullStatement": "The solution architect applies domain-driven design principles to align software models with business domains, enabling scalable, maintainable, and business-aligned solution architectures.",
+  "conceptKeywords": ["bounded contexts", "ubiquitous language", "aggregate design", "domain events", "context mapping"],
+  "language": "en",
+  "licenseURI": {
+    "title": "Creative Commons Attribution 4.0",
+    "identifier": "CC-BY-4.0",
+    "uri": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "associationSet": [
+    {
+      "type": "AssociationLink",
+      "targetId": "https://domainlanguage.com/ddd/",
+      "associationType": "isRelatedTo",
+      "title": "Domain-Driven Design Reference"
+    }
+  ],
+  "educationLevel": ["professional"],
+  "subject": "Software Engineering",
+  "subjectURI": "https://id.loc.gov/authorities/subjects/sh85124347"
+}
