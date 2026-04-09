@@ -2,6 +2,8 @@
 # Disable Jekyll processing for pure static JSON-LD site
 include:
   - "*.jsonld"
+  - "*.html"
+  - "*.json"
   - "framework"
   - "skills"
 
