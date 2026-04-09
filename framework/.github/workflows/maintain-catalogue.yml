@@ -1,0 +1,74 @@
+# .github/workflows/maintain-catalogue.yml
+name: Maintain CASE-LD Catalogue
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:  # Manual trigger
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate catalogue files
+        run: |
+          echo "🔍 Listing skills directory..."
+          ls -la skills/ || echo "⚠️ skills/ directory not found"
+          
+          echo "📝 Creating skills.json..."
+          node scripts/generate-catalogue.js || echo "⚠️ Generator script failed"
+          
+          echo "📋 Checking generated files..."
+          ls -la index.html skills/index.html skills.json 2>/dev/null || echo "⚠️ Some files not generated"
+
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Add files (ignore if they don't exist yet)
+          git add -f index.html skills/index.html skills.json 2>/dev/null || true
+          
+          # Only commit if there are changes
+          if git diff --cached --quiet; then
+            echo "✅ No changes to commit"
+          else
+            git commit -m "chore: auto-generate catalogue assets [skip ci]"
+            echo "🔄 Pushing changes..."
+            git push
+          fi
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+  deploy:
+    needs: generate
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
