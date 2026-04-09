@@ -1,0 +1,33 @@
+{
+  "@context": "https://purl.imsglobal.org/spec/case/v1p0/context/imscasev1p0_context_v1p0.jsonld",
+  "type": "CFItem",
+  "id": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/total-cost-of-ownership-analysis.jsonld",
+  "identifier": "ITSA-TCO-045",
+  "lastChangeDateTime": "2026-04-09T00:00:00+00:00",
+  "CFDocumentURI": {
+    "type": "LinkURI",
+    "title": "IT Solution Architect Competency Framework",
+    "identifier": "ITSA-FW-2026",
+    "targetId": "https://baradhili.github.io/Solution-architecture-skill-repository/framework/it-solution-architect-framework.jsonld"
+  },
+  "abbreviatedStatement": "Total Cost of Ownership Analysis",
+  "fullStatement": "The solution architect conducts comprehensive TCO analyses that account for acquisition, implementation, operation, maintenance, and decommissioning costs across the full solution lifecycle.",
+  "conceptKeywords": ["TCO analysis", "lifecycle costing", "operational expenditure", "capital expenditure", "cost drivers", "financial modeling"],
+  "language": "en",
+  "licenseURI": {
+    "title": "Creative Commons Attribution 4.0",
+    "identifier": "CC-BY-4.0",
+    "uri": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "associationSet": [
+    {
+      "type": "AssociationLink",
+      "targetId": "https://www.gartner.com/en/information-technology/insights/technology-investment",
+      "associationType": "isRelatedTo",
+      "title": "Gartner TCO Framework"
+    }
+  ],
+  "educationLevel": ["professional"],
+  "subject": "Technology Economics",
+  "subjectURI": "https://id.loc.gov/authorities/subjects/sh85067260"
+}

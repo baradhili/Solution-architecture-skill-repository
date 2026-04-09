@@ -1,0 +1,33 @@
+{
+  "@context": "https://purl.imsglobal.org/spec/case/v1p0/context/imscasev1p0_context_v1p0.jsonld",
+  "type": "CFItem",
+  "id": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/roi-modeling-analysis.jsonld",
+  "identifier": "ITSA-RMA-044",
+  "lastChangeDateTime": "2026-04-09T00:00:00+00:00",
+  "CFDocumentURI": {
+    "type": "LinkURI",
+    "title": "IT Solution Architect Competency Framework",
+    "identifier": "ITSA-FW-2026",
+    "targetId": "https://baradhili.github.io/Solution-architecture-skill-repository/framework/it-solution-architect-framework.jsonld"
+  },
+  "abbreviatedStatement": "ROI Modeling & Analysis",
+  "fullStatement": "The solution architect builds financial models to calculate return on investment, payback periods, and net present value for architecture initiatives to support data-driven investment decisions.",
+  "conceptKeywords": ["ROI analysis", "NPV calculation", "payback period", "financial modeling", "value metrics", "investment appraisal"],
+  "language": "en",
+  "licenseURI": {
+    "title": "Creative Commons Attribution 4.0",
+    "identifier": "CC-BY-4.0",
+    "uri": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "associationSet": [
+    {
+      "type": "AssociationLink",
+      "targetId": "https://www.investopedia.com/terms/r/returnoninvestment.asp",
+      "associationType": "isRelatedTo",
+      "title": "ROI Calculation Standards"
+    }
+  ],
+  "educationLevel": ["professional"],
+  "subject": "Financial Analysis",
+  "subjectURI": "https://id.loc.gov/authorities/subjects/sh85047990"
+}

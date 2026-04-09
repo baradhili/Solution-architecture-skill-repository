@@ -1,0 +1,33 @@
+{
+  "@context": "https://purl.imsglobal.org/spec/case/v1p0/context/imscasev1p0_context_v1p0.jsonld",
+  "type": "CFItem",
+  "id": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/enterprise-architecture-modeling.jsonld",
+  "identifier": "ITSA-EAM-001",
+  "lastChangeDateTime": "2026-04-09T00:00:00+00:00",
+  "CFDocumentURI": {
+    "type": "LinkURI",
+    "title": "IT Solution Architect Competency Framework",
+    "identifier": "ITSA-FW-2026",
+    "targetId": "https://baradhili.github.io/Solution-architecture-skill-repository/framework/it-solution-architect-framework.jsonld"
+  },
+  "abbreviatedStatement": "Enterprise Architecture Modeling",
+  "fullStatement": "The solution architect creates and maintains enterprise architecture models using standardized notations that enable strategic technology alignment across business domains.",
+  "conceptKeywords": ["enterprise architecture", "TOGAF", "ArchiMate", "business capability mapping", "architecture visualization"],
+  "language": "en",
+  "licenseURI": {
+    "title": "Creative Commons Attribution 4.0",
+    "identifier": "CC-BY-4.0",
+    "uri": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "associationSet": [
+    {
+      "type": "AssociationLink",
+      "targetId": "https://www.togaf.org/standards/architecture-development-method",
+      "associationType": "isRelatedTo",
+      "title": "TOGAF Architecture Development Method"
+    }
+  ],
+  "educationLevel": ["postgraduate", "professional"],
+  "subject": "Information Technology",
+  "subjectURI": "https://id.loc.gov/authorities/subjects/sh85067260"
+}

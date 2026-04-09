@@ -1,0 +1,33 @@
+{
+  "@context": "https://purl.imsglobal.org/spec/case/v1p0/context/imscasev1p0_context_v1p0.jsonld",
+  "type": "CFItem",
+  "id": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/business-case-development.jsonld",
+  "identifier": "ITSA-BCD-043",
+  "lastChangeDateTime": "2026-04-09T00:00:00+00:00",
+  "CFDocumentURI": {
+    "type": "LinkURI",
+    "title": "IT Solution Architect Competency Framework",
+    "identifier": "ITSA-FW-2026",
+    "targetId": "https://baradhili.github.io/Solution-architecture-skill-repository/framework/it-solution-architect-framework.jsonld"
+  },
+  "abbreviatedStatement": "Business Case Development",
+  "fullStatement": "The solution architect constructs compelling business cases that quantify expected benefits, costs, risks, and strategic alignment to secure executive approval for architecture investments.",
+  "conceptKeywords": ["business case", "benefit realization", "cost-benefit analysis", "strategic alignment", "investment justification", "value proposition"],
+  "language": "en",
+  "licenseURI": {
+    "title": "Creative Commons Attribution 4.0",
+    "identifier": "CC-BY-4.0",
+    "uri": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "associationSet": [
+    {
+      "type": "AssociationLink",
+      "targetId": "https://www.apm.org.uk/resources/find-a-resource/what-is-a-business-case/",
+      "associationType": "isRelatedTo",
+      "title": "APM Business Case Guidance"
+    }
+  ],
+  "educationLevel": ["professional"],
+  "subject": "Business Strategy",
+  "subjectURI": "https://id.loc.gov/authorities/subjects/sh85015369"
+}

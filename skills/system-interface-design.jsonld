@@ -1,0 +1,33 @@
+{
+  "@context": "https://purl.imsglobal.org/spec/case/v1p0/context/imscasev1p0_context_v1p0.jsonld",
+  "type": "CFItem",
+  "id": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/system-interface-design.jsonld",
+  "identifier": "ITSA-SID-009",
+  "lastChangeDateTime": "2026-04-09T00:00:00+00:00",
+  "CFDocumentURI": {
+    "type": "LinkURI",
+    "title": "IT Solution Architect Competency Framework",
+    "identifier": "ITSA-FW-2026",
+    "targetId": "https://baradhili.github.io/Solution-architecture-skill-repository/framework/it-solution-architect-framework.jsonld"
+  },
+  "abbreviatedStatement": "System Interface Design",
+  "fullStatement": "The solution architect defines clear, versioned, and testable system interfaces that enable reliable data exchange and service orchestration across heterogeneous technology stacks.",
+  "conceptKeywords": ["interface specification", "contract design", "service boundaries", "data contracts", "integration protocols"],
+  "language": "en",
+  "licenseURI": {
+    "title": "Creative Commons Attribution 4.0",
+    "identifier": "CC-BY-4.0",
+    "uri": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "associationSet": [
+    {
+      "type": "AssociationLink",
+      "targetId": "https://www.omg.org/spec/UML/",
+      "associationType": "isRelatedTo",
+      "title": "UML Interface Modeling"
+    }
+  ],
+  "educationLevel": ["professional"],
+  "subject": "Systems Integration",
+  "subjectURI": "https://id.loc.gov/authorities/subjects/sh85067260"
+}

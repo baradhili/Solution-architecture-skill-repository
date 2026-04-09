@@ -1,0 +1,33 @@
+{
+  "@context": "https://purl.imsglobal.org/spec/case/v1p0/context/imscasev1p0_context_v1p0.jsonld",
+  "type": "CFItem",
+  "id": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/compliance-framework-mapping.jsonld",
+  "identifier": "ITSA-CFM-018",
+  "lastChangeDateTime": "2026-04-09T00:00:00+00:00",
+  "CFDocumentURI": {
+    "type": "LinkURI",
+    "title": "IT Solution Architect Competency Framework",
+    "identifier": "ITSA-FW-2026",
+    "targetId": "https://baradhili.github.io/Solution-architecture-skill-repository/framework/it-solution-architect-framework.jsonld"
+  },
+  "abbreviatedStatement": "Compliance Framework Mapping",
+  "fullStatement": "The solution architect maps technical controls and architecture patterns to regulatory and industry compliance frameworks to ensure solutions meet legal, security, and audit requirements.",
+  "conceptKeywords": ["GDPR", "HIPAA", "SOC 2", "ISO 27001", "compliance controls", "audit readiness"],
+  "language": "en",
+  "licenseURI": {
+    "title": "Creative Commons Attribution 4.0",
+    "identifier": "CC-BY-4.0",
+    "uri": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "associationSet": [
+    {
+      "type": "AssociationLink",
+      "targetId": "https://csrc.nist.gov/projects/cyberframework",
+      "associationType": "isRelatedTo",
+      "title": "NIST Cybersecurity Framework"
+    }
+  ],
+  "educationLevel": ["professional"],
+  "subject": "Regulatory Compliance",
+  "subjectURI": "https://id.loc.gov/authorities/subjects/sh85036239"
+}

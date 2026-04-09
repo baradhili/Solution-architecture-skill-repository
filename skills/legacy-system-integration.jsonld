@@ -1,0 +1,33 @@
+{
+  "@context": "https://purl.imsglobal.org/spec/case/v1p0/context/imscasev1p0_context_v1p0.jsonld",
+  "type": "CFItem",
+  "id": "https://baradhili.github.io/Solution-architecture-skill-repository/skills/legacy-system-integration.jsonld",
+  "identifier": "ITSA-LSI-025",
+  "lastChangeDateTime": "2026-04-09T00:00:00+00:00",
+  "CFDocumentURI": {
+    "type": "LinkURI",
+    "title": "IT Solution Architect Competency Framework",
+    "identifier": "ITSA-FW-2026",
+    "targetId": "https://baradhili.github.io/Solution-architecture-skill-repository/framework/it-solution-architect-framework.jsonld"
+  },
+  "abbreviatedStatement": "Legacy System Integration",
+  "fullStatement": "The solution architect designs integration strategies that modernize, wrap, or replace legacy systems while preserving business continuity and minimizing technical debt accumulation.",
+  "conceptKeywords": ["strangler pattern", "legacy modernization", "system wrapping", "data migration", "technical debt"],
+  "language": "en",
+  "licenseURI": {
+    "title": "Creative Commons Attribution 4.0",
+    "identifier": "CC-BY-4.0",
+    "uri": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "associationSet": [
+    {
+      "type": "AssociationLink",
+      "targetId": "https://martinfowler.com/bliki/StranglerFigApplication.html",
+      "associationType": "isRelatedTo",
+      "title": "Strangler Fig Pattern"
+    }
+  ],
+  "educationLevel": ["professional"],
+  "subject": "System Modernization",
+  "subjectURI": "https://id.loc.gov/authorities/subjects/sh85124347"
+}
